@@ -9,10 +9,9 @@ const _tab = [
 
 const btn = document.querySelector('button');
 const paragraph = document.querySelector('p');
-const timeDiv = document.querySelector('time');
 
 btn.addEventListener('click', function(){
-    paragraph.innerHTML = getString();
+    paragraph.innerHTML = `"${getString()}"`;
 });
 
 function randomNum() {
